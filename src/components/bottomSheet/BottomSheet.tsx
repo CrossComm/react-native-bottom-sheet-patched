@@ -1637,6 +1637,7 @@ const BottomSheetComponent = forwardRef<BottomSheet, BottomSheetProps>(
                   handleIndicatorStyle={_providedHandleIndicatorStyle}
                 />
               </Animated.View>
+              <ReText style={{ position: 'absolute', opacity: 0}} text={""} value={animatedSheetState} />
               {/* <BottomSheetDebugView
                 values={{
                   // topInset,
