@@ -78,6 +78,7 @@ import {
 import type { BottomSheetMethods, Insets } from '../../types';
 import type { BottomSheetProps, AnimateToPositionType } from './types';
 import { styles } from './styles';
+import ReText from '../bottomSheetDebugView/ReText';
 
 Animated.addWhitelistedUIProps({
   decelerationRate: true,
